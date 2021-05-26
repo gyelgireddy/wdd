@@ -1,0 +1,124 @@
+html,body { overflow-y: scroll; }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+	width: 100%;
+	height: 80px;
+    background: #ba7cdf;
+    position: fixed;
+    margin: auto;
+    font-family: 'Dancing Script', serif;
+	color: white;
+	padding-top: 15px;
+  	padding-bottom: 15px;
+  	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#logo {
+	width: 75px;
+	height: 75px;
+}
+#title {
+	padding-left: 50px;
+	padding-right: 300px;
+	font-size: 45px;
+	font-family: 'Dancing Script', serif;
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font-weight: 12px;
+	font-size: 25px;
+	padding-right: 50px;
+}
+
+li {
+	float: left;
+}
+
+li a {
+  	color: white;
+  	padding: 8px 16px;
+    text-decoration: none;
+    opacity: 1;
+}
+li a:hover {
+    color: white;
+    opacity: 0.8;
+    transform: scale(1.3);
+    transition-duration: 200ms;
+}
+
+.org {
+	position: absolute;
+    top: 110px;
+    bottom: 75px;
+    width: 100%;
+	background: #e9e1f0;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
+}
+
+.smallheader {
+    font-size: 40px;
+    padding-right: 20px;
+    font-family: 'Dancing Script', serif;
+    font-weight: bold;
+}
+#menu {
+    background: #ba7cdf;
+    color: black;
+    font-size: 18px;
+    height: 368px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#newpic {
+	width: 500px;
+	height: 500px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#picdetails {
+	height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 500px;
+    opacity: 1;
+}
+
+.bottom {
+    background: #ba7cdf;
+    font-family: 'Lora', serif;
+	color: white;
+    width: 100%;
+    height: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    bottom: 0;
+	position: fixed;
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
+}
